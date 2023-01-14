@@ -1,0 +1,25 @@
+.header {
+    background-color:  rgba(238, 239, 241, 1);
+    padding: 72px 0;
+    display: block;
+}
+.header__logo {
+    float: left;
+    margin-top: 35px;
+}
+
+.header__nav  {
+    float: right;
+   
+}
+ul { 
+   list-style: none;
+   
+}
+   ul li {
+    float: left;
+    margin: 42px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
