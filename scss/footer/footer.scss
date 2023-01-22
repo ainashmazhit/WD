@@ -1,0 +1,33 @@
+.footer {
+    background-color: #34547A;
+    height: 151px;
+    color: $color-white;
+
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-evenly;
+    }
+    &__sitename {
+        font-size: $medium;
+    }
+    &__info {
+        display: flex;
+        flex-direction: row;
+        
+    gap: 0 20px;
+    }
+
+    &__copyright {
+
+    }
+    &__icon {
+        display: flex;
+        column-gap: 8px;
+    }
+}
+html {
+    width: 100%;
+}
